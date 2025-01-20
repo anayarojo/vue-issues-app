@@ -16,6 +16,8 @@ const leftDrawerOpen = ref(false)
 const toggleLeftDrawer = () => {
   leftDrawerOpen.value = !leftDrawerOpen.value
 }
+
+console.log(process.env)
 </script>
 
 <template>
