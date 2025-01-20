@@ -25,12 +25,14 @@ Copy `.env.template` and rename it as `.env.local`
 
 ```bash
 quasar dev
+or
+pnpm run dev
 ```
 
 ### Lint the files
 
 ```bash
-yarn lint
+pnpm run lint
 # or
 npm run lint
 ```
@@ -38,7 +40,7 @@ npm run lint
 ### Format the files
 
 ```bash
-yarn format
+pnpm run format
 # or
 npm run format
 ```
